@@ -5,7 +5,7 @@ Outil pour transformer un fichier de notes Moodle (xlsx) en fichier SNW (csv)
 
 ## Pré-requis
 
-* Python 3.5.x
+* Python >=3.5
 * pip
 * Git
 
