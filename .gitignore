@@ -1,0 +1,9 @@
+# pyenv
+.python-version
+
+# PyCharm
+.idea/
+/MagicalQuill.egg-info/
+/dist/
+/Bilan S4 Notes.xlsx
+/Extract_SN_Web.csv
