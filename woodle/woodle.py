@@ -9,12 +9,15 @@ import pandas as pd
 
 def convert(input, output, col, bareme):
     if not os.path.exists(input):
-        raise Exception('Le fichier de promo n\'existe pas')
+        raise Exception('Le fichier Moodle n\'existe pas')
+    if not os.path.exists(output):
+        raise Exception('Le fichier SNW n\'existe pas')
     if input.endswith('.csv'):
         donnees_promo = pd.read_csv(input, sep=',')
     else:
         donnees_promo = pd.read_excel(input).set_index('Numéro d\'identification')
-    print(donnees_promo)
+
+    notes = donnees_promo[col]
 
     tempfile = NamedTemporaryFile(mode='w+', encoding='iso-8859-1', delete=False)
 
@@ -25,7 +28,7 @@ def convert(input, output, col, bareme):
         for row in reader:
             try:
                 code = int(row[0])
-                note = donnees_promo[col][code]
+                note = notes[code]
                 if note != '-':
                     row[4] = note
                     row[5] = bareme
