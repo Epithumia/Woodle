@@ -27,6 +27,11 @@ Options:
   -h, --help  Affiche ce message d'aide et termine.
 ```
 
+**Attention : le fichier SNW doit exister et avoir le bon entête (le télécharger depuis SNW avant).**
+
+Exemple :
+
+    woodle "Bilan S4 Notes.xlsx" "Extract_SN_Web.csv" "Admi/Sys/Res CC (Brut)"
 
 # Versions
 
