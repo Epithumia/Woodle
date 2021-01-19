@@ -2,6 +2,7 @@ from setuptools import setup
 
 requires = [
     'pandas',
+    'xlrd==1.2.0',
 ]
 
 setup(
