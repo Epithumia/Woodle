@@ -11,7 +11,7 @@ Outil pour transformer un fichier de notes Moodle (xlsx) en fichier SNW (csv)
 
 ## Installation avec pip
 
-    pip install git+https://git.iut-orsay.fr/rafael.lopez/woodle
+    pip install git+https://github.com/Epithumia/Woodle.git
 
 # Utilisation
 
