@@ -14,7 +14,7 @@ setup(
     version="0.2",
     description="Outil pour trnsformer un fichier de notes Moodle en fichier SNW.",
     long_description=long_description,
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
     url="https://git.iut-orsay.fr/rafael.lopez/woodle",
     packages=['woodle'],
     install_requires=requires,
