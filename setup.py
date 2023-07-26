@@ -1,4 +1,7 @@
 from setuptools import setup
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 requires = [
     'pandas',
@@ -10,6 +13,8 @@ setup(
     name="Woodle",
     version="0.2",
     description="Outil pour trnsformer un fichier de notes Moodle en fichier SNW.",
+    long_description=long_description,
+    long_description_content_type='text/markdown'
     url="https://git.iut-orsay.fr/rafael.lopez/woodle",
     packages=['woodle'],
     install_requires=requires,
