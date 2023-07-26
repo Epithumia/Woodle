@@ -1,26 +1,26 @@
 # Woodle
 Outil pour transformer un fichier de notes Moodle (xlsx) en fichier SNW (csv)
 
-# Installation
+## Installation
 
-## Pré-requis
+### Pré-requis
 
 * Python >=3.5
 * pip
 * Git
 
-## Installation avec pip
+### Installation avec pip
 
     pip install git+https://github.com/Epithumia/Woodle.git
 
-# Utilisation
+## Utilisation
 
 Cet utilitaire permet de passer les notes de Moodle à SNW
 
 Utilisation seule :
 
 ```
-woodle <fichier moodle> <fichier snw> <colonne>
+woodle [option] <fichier moodle> <fichier snw> <colonne>
 
 Options:
   -b BAREME   Barême.
@@ -33,6 +33,7 @@ Exemple :
 
     woodle "Bilan S4 Notes.xlsx" "Extract_SN_Web.csv" "Admi/Sys/Res CC (Brut)"
 
-# Versions
+## Versions
 
 * 0.1 Version initiale
+* 0.2 Améliorations de la gestion des erreurs

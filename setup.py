@@ -8,7 +8,7 @@ requires = [
 
 setup(
     name="Woodle",
-    version="0.1",
+    version="0.2",
     description="Outil pour trnsformer un fichier de notes Moodle en fichier SNW.",
     url="https://git.iut-orsay.fr/rafael.lopez/woodle",
     packages=['woodle'],
