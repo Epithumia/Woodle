@@ -9,3 +9,7 @@
 /Extract_SN_Web.csv
 /Extract_SN_Web-test.csv
 /Woodle.egg-info/
+
+# pycache
+__pycache__/
+*.py[cod]
