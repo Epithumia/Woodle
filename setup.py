@@ -11,11 +11,11 @@ requires = [
 
 setup(
     name="Woodle",
-    version="0.2",
+    version="0.2.1",
     description="Outil pour trnsformer un fichier de notes Moodle en fichier SNW.",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url="https://git.iut-orsay.fr/rafael.lopez/woodle",
+    url="https://github.com/Epithumia/Woodle",
     packages=['woodle'],
     install_requires=requires,
     entry_points={
