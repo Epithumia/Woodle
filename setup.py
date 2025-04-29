@@ -11,7 +11,7 @@ requires = [
 
 setup(
     name="Woodle",
-    version="0.2.1",
+    version="0.3",
     description="Outil pour trnsformer un fichier de notes Moodle en fichier SNW.",
     long_description=long_description,
     long_description_content_type='text/markdown',

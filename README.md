@@ -37,3 +37,4 @@ Exemple :
 
 * 0.1 Version initiale
 * 0.2 Améliorations de la gestion des erreurs
+* 0.3 Gestion des exports Excel avec un "’" dans la colonne d'identifiants au lieu de "'"

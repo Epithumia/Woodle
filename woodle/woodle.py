@@ -26,7 +26,10 @@ def convert(input_file, output_file, col, bareme):
     if input_file.endswith(".csv"):
         donnees_promo = pd.read_csv(input_file, sep=",")
     else:
-        donnees_promo = pd.read_excel(input_file).set_index("Numéro d'identification")
+        try:
+            donnees_promo = pd.read_excel(input_file).set_index("Numéro d'identification")
+        except KeyError:
+            donnees_promo = pd.read_excel(input_file).set_index("Numéro d’identification")
 
     try:
         notes = donnees_promo[col]
